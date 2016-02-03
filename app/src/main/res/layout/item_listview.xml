@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/unchecked"
+        android:id="@+id/listitemLayout"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:id="@+id/checkBox_itemstate"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            />
+
+        <View android:id="@+id/separator1"
+            android:background="#FF808C52"
+            android:layout_width = "1dp"
+            android:layout_height="fill_parent" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/textViewListitem1"
+            android:layout_margin="1dp"
+            android:layout_gravity="left"
+            android:textColor="@color/listitemtextcolor" />
+
+        <View android:id="@+id/separator2"
+            android:background="#FF808C52"
+            android:layout_width = "1dp"
+            android:layout_height="fill_parent" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/textViewListitem2"
+            android:layout_margin="1dp"
+            android:layout_gravity="left"
+            android:textColor="@color/listitemtextcolor" />
+
+        <View android:id="@+id/separator3"
+            android:background="#FF808C52"
+            android:layout_width = "1dp"
+            android:layout_height="fill_parent" />
+
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/textViewListitem3"
+            android:layout_margin="1dp"
+            android:layout_gravity="left"
+            android:textColor="@color/listitemtextcolor" />
+
+        <View android:id="@+id/separator4"
+            android:background="#FF808C52"
+            android:layout_width = "1dp"
+            android:layout_height="fill_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/textViewListitem4"
+            android:layout_margin="1dp"
+            android:layout_gravity="left"
+            android:textColor="@color/listitemtextcolor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/textViewListitemState"
+            android:layout_gravity="bottom"
+            android:visibility="invisible"
+            android:textColor="@color/listitemtextcolor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/textViewListitemId"
+            android:layout_gravity="center_vertical"
+            android:visibility="invisible"
+            android:textColor="@color/listitemtextcolor" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
